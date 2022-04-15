@@ -1,0 +1,7 @@
+# Useful scripts from the net
+
+Very useful for debugging vagrant issues on M1/arm64 Mac
+
+```bash
+/opt/vagrant-vmware-desktop/bin/vagrant-vmware-utility api --debug
+```
