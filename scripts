@@ -6,7 +6,7 @@ Very useful for debugging vagrant issues on M1/arm64 Mac
 /opt/vagrant-vmware-desktop/bin/vagrant-vmware-utility api --debug
 ```
 
-How to create files with timestamp from a future or past date. Following will create a file dated 2022-09-20 (yyyy-mm-dd), 12th hour and 12th minute
+How to create files with timestamp from a future or past date. Following will create a file dated 2022-09-20 (yyyy-mm-dd), 12th hour and 12th minute, but any writes to the file change the time
 
 ```bash
 touch -t 2209201212.55 file1
